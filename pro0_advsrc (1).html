@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Search</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <style>
+  #adv{
+    padding:10px;
+    margin:20px;
+  }
+
+  .dop{
+    font-family: sans-serif,fantasy;
+    float:left;
+  }
+  .in{
+    margin-bottom: 10px;
+    width:50%;
+
+  }
+
+  </style>
+</head>
+<body>
+  <a href="pro0.html">Google Search</a>
+  <br><a href="pro0_imgsrc.html">Image Search</a>
+  <form id="adv" action="https://www.google.com/search">
+    <br><div class="dop">Find pages with:</div>
+    <div class="form-group">
+    <input class="form-control" type="text" name="q">
+  </div>
+  <div class="form-group">
+    <br><div class="dop">This exact word or phrase : </div>
+    <div class="form-group">
+    <input class="form-control" type="text" name="as_epq" >
+  </div>
+    <br><div class="dop">Any of these words:</div>
+    <div class="form-group">
+    <input class="form-control" type="text" name="as_oq" >
+  </div>
+    <br><div class="dop">None of these words:</div>
+    <div class="form-group">
+    <input class="form-control" type="text" name="as_eq">
+  </div>
+
+    <br><button class="tfbutton">advanced_search</button>
+  </form>
+</body>
